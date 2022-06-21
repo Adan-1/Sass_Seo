@@ -1,0 +1,14 @@
+Sass :
+hice una pagina nueva completa en sass , use la mayoria de las propiedades , mixis la use en footer y section
+
+Seo:
+1.Las imagines baje el tamaño
+2.Corregi las letras aunque use lore para llenar algunas cosas
+3.Semantica y las (h1.h2) las use correctamente
+4.title "Zelda - Tienda de juegos - Compra y venda"
+5.las Alt "" las use con nombre y un algo mas para que se encuentre mejor
+5.meta description 
+    "Zelda -Tienda de juegos Número 1.
+    compre y vende juegos de PC,PS4,PS5.
+    ¡Todo al mejor precios!"
+6.meta keywords "Juegos, PC, PS4, PS5, Fortnite, Games, Minecraft, Compra, Vende"

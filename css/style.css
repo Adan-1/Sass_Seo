@@ -1,0 +1,122 @@
+header {
+  display: flex;
+  background-color: #CDF0EA;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .header__logo {
+  display: flex;
+  align-items: center;
+}
+
+header .header__logo h1 {
+  font-size: 2.5rem;
+}
+
+header .nav .menu {
+  display: flex;
+}
+
+header .nav .menu .boton {
+  margin: 15px;
+  font-size: 1.1rem;
+}
+
+header .nav .menu .boton a {
+  padding: 0.3rem;
+}
+
+header .nav .menu .boton :hover {
+  border-radius: 15%;
+  background-color: #faf4b7;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+main h2 {
+  font-family: "Koulen", cursive;
+  margin-bottom: .5rem;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  width: 70%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Koulen", cursive;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Koulen", cursive;
+}
+
+footer {
+  margin-top: 1rem;
+  background-color: #CDF0EA;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .footer__logo {
+  align-self: center;
+}
+
+footer .footer_redes h3 {
+  font-family: "Koulen", cursive;
+}
+
+footer .footer_redes a {
+  font-family: "Koulen", cursive;
+}
+
+footer .footer_redes a:hover {
+  padding: 0.2rem;
+  border-radius: 10px;
+  background-color: #faf4b7;
+}
+
+footer .footer__preguntas h3 {
+  font-family: "Koulen", cursive;
+}
+
+footer .footer__preguntas a {
+  font-family: "Koulen", cursive;
+}
+
+footer .footer__preguntas a:hover {
+  padding: 0.2rem;
+  border-radius: 10px;
+  background-color: #faf4b7;
+}
+
+footer iframe {
+  width: 10%;
+  height: 120px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+* a {
+  color: black;
+  font-family: "Koulen", cursive;
+}

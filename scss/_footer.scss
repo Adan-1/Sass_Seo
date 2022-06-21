@@ -1,0 +1,35 @@
+@mixin footer_list($colorhover) {
+    h3{
+        font-family: $text-h1;
+    }
+    a{
+        font-family: $text-h1;
+        &:hover{
+            padding: 0.2rem;
+            border-radius: 10px;
+            background-color:$colorhover;
+        }
+    }
+
+    
+}
+footer{
+    margin-top: 1rem;
+    background-color: $color1;
+    display: flex;
+    justify-content: space-evenly;
+    .footer__logo{
+        align-self: center;
+    }
+    .footer_redes{
+        @include footer_list($colorhover)
+
+    }
+    .footer__preguntas{
+        @include footer_list($colorhover)
+    }
+    iframe{
+        width: 10%;
+        height: 120px;
+    }
+}
